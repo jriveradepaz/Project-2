@@ -1,0 +1,30 @@
+/*  reset.css */
+
+html {
+	font-family: Garamond, non-serif;
+	-webkit-text-size-adjust: 100%;
+	
+}
+
+/*
+ remove default margin found in body
+ 
+*/
+body {
+	margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
