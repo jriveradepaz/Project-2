@@ -93,7 +93,8 @@
 }
 nav{
   text-align: center;
-  text-decoration: none;
+  text-decoration-style: none;
+  float: top;
 }
 .navlist{
   list-style: none;
@@ -102,6 +103,14 @@ nav{
 body{
   margin: 5%;
 }
-#lists{
-  
+
+
+#link1{
+  float: left;
 }
+
+}
+#link3{
+  float: right;
+}
+
