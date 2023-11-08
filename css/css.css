@@ -94,7 +94,6 @@
 nav{
   text-align: center;
   text-decoration-style: none;
-  float: top;
 }
 .navlist{
   list-style: none;
@@ -109,8 +108,12 @@ body{
   float: left;
 }
 
-}
+
 #link3{
   float: right;
 }
 
+a{
+  text-decoration: none;
+  color: darkblue;
+}
